@@ -11,3 +11,6 @@ class Masher
 				else if type is "js"
 					"<script src='#{ file }'></script>"
 			html.join ''
+
+
+module.exports = Masher
